@@ -6,33 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba1 de paginaweb cv</title>
     <link rel="Estyleproyecto" type="text/css" href="styles/Estyleproyecto.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta http-equiv="Content-Type" content="text/html">
+    <script src="https://kit.fontawesome.com/e6cd936d9d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!--enbezado comienza-->
     <header class="heder" id="inicio">
-        <img src="MENU.svg" alt="menu" class="menu">
-        <div class="head" id="inicio">
-            <a href="./" class="cerrar-media-icon">
-                <i class='bx bx-x'></i>
-            </a>
+        
+        <div class="inicio" id="inicio">
+            <button><i class="fa-thin fa-bars"></i></button>
+           >
+
         </div><!-- termina enbezado comienza-->
         <!-- comienza menu de navegacion-->
         <nav class="menu-navegacion spread" id="navegacion">
-         <a href="#inicio">inicio</a>
-         <a href="#Perfil general">Perfil general</a>
-         <a href="#experiencia laboral">experiencia laboral</a>
-         <a href="#Formacion academica">Formacion academica</a> 
-         <a href="#Contacto">Contacto</a> 
+         <ul>
+             <li><a href="#inicio">inicio</a></li>
+             <li><a href="#Perfil general">Perfil general</a></li>
+             <li><a href="#experiencia laboral">experiencia laboral</a></li>
+             <li><a href="#Formacion academica">Formacion academica</a></li>
+             <li> <a href="#Contacto">Contacto</a></li> 
+         </ul>
+         <style>
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            padding: 8px;
+            background-color: #dddddd;
+          }
+         </style>
         </nav><!-- termina menu de navegacion-->
         <div class="contenedor-head">
-           <div class="imagen-del-cv" id="imagen-cv">
-           <img src="./imagendelcv.jpg" alt="imagendelcv">
-           </div>
+           
+            <div class="imagen-del-cv" id="imagen-cv">
+            <img src="../img/02.jpg" width="100" height="100" />
+            </div>
+
            <h1>María julia Estévez López</h1>
            <p class="copy">LIC. EN ADMINISTRACIÓN.</p>
         </div>
+        <meta http-equiv="Content-Type" content="text/indexprueba.html">
     </header>
     <main>
        <!--comienza  el perfil general-->
@@ -131,13 +155,13 @@
         </div>
         <div class="social-media">
             <a href="./" class="social-media-icon">
-             <i class='bx bxl-twitter'></i>  
+             <i class="fa-brands fa-square-twitter"></i> 
             </a>
             <a href="./" class="social-media-icon">
-                <i class='bx bxl-facebook'></i> 
+                <i class="fa-brands fa-facebook"></i>
                </a>
                <a href="./" class="social-media-icon">
-                <i class='bx bxl-instagram'></i> 
+                <i class="fa-brands fa-instagram"></i>
                </a>
         </div>
     </footer>
