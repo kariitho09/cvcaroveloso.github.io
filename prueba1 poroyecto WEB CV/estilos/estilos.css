@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'DM Sans', sans-serif;
+}
+/*--------------------------------------------------------------
+# menu de navegacion */
+.navegacion{
+    display: flex;
+    align-items: normal;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 17px;    
+}
+
+.inicio{
+    padding-top: 3cm;
+    margin: auto;
+    padding: 0;
+    color: #fff;
+    text-shadow: 1px 1px  1px black; 
+}
+
+/* esto son los iconos de la lista de menu*/
+.lista{
+    display: inline-block;
+    color: #fff;
+    padding: 6px ;
+    font-weight: bold;
+    transition: 3s ease;
+}
+.lista a{
+   color: #fff;
+   text-decoration: none;
+   margin-left: 3px;
+   transition: 3s ease;
+}
+ 
+.lista:hover{
+    color: black;
+}
+
+.lista >a:hover{
+    color: black;
+}
+
+/* termina la barra de navegacion*/
+
+/*  comienza foto de perfil*/
+.foto_de_perfil{
+    width: 200px;
+    height: 200px;
+    background-color: #0000ff1a;
+    border-radius: 100%;
+    top: 0px;
+    position: relative;
+}
+
+.circulo{
+width: 100%;
+height: 100%;
+border-radius: 100%;
+margin: 1px;
+margin-bottom: 30px;
+top: 0px;
+position: absolute;
+text-align: left
+}
+/* termina comienza foto de perfil*/
+/* comienza el encabezado*/
+.contenido_del_cv{
+    grid-column: span 2;
+    height: 100%;
+    background-color: #e3d9d0;
+}
+#inicio{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2F80ED;
+    margin-bottom: 1.2rem;
+    position: relative;
+}
+.titulo_inicio{
+    letter-spacing: 1.2rem;
+    font-size: 1.3rem;
+    color: #ce0f0f;
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid #002333;
+}
+.sub_titulo_inicio span{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: #774ead;
+    text-align: left;
+}
+#carrera{
+    font-size: 1.2rem;
+    text-align: center;
+    text-align: left;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+/* comienza el perfil*/
+#perfil{
+    margin: 70px;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    color: #002333;
+    text-transform: uppercase;
+}
+
+#text1{
+    margin: auto;
+    text-align: center;
+    line-height: 1.6rem;
+    color: #18396b;
+    font-size: 1.1rem;
+}
+.divider{
+    width: 80px;
+    height: 3px;
+    margin-bottom: 10px;
+    background-color: #250949;
+}
+/*termina*/
+/*comienza la experiencia laboral*/
+#experiencia{
+    margin: auto;
+    text-align: left;
+    line-height: 1.6rem;
+    color: #4d4d4d;
+    font-size: 1.1rem;
+}
+
+.titulo_experiencia{
+    margin: auto;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: #002333;
+    text-transform: uppercase;
+}
+
+#sub-titulo{
+    text-align: left;
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.fecha h5{
+    text-align: left;
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1.3rem;
+}
+
+.parrafo-cont{
+    text-align: left;
+    line-height: 1rem;
+    color: #718096;
+    font-size: 1.3rem;
+}
+
+.contenido ul li {
+    align-items: center;
+    text-align: left;
+    line-height: 1rem;
+    color: #718096;
+    font-size: 1.3rem;
+}
+
+.sub_titulo_asistente{
+    margin: 30px;
+    margin: auto;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: #4d4d4d;
+    text-transform: uppercase;
+}
+.fecha2{
+   margin: auto;
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1.1rem; 
+}
+.parrafo-cont2{
+   margin: auto;
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1.1rem;
+}
+.contenido2{
+    margin: auto;
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1.1rem; 
+}
+
+.sub_titulo_pasante{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: #4d4d4d;
+    text-transform: uppercase;
+}
+.fecha3{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1.1rem; 
+}
+.parrafo-cont3{
+    border-left: 1px solid #ccc;
+    padding-left: 2rem;
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1.1rem; 
+}
+.contenido3{
+    border-left: 1px solid #ccc;
+    padding-left: 2rem;
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1.1rem;    
+}
+/*comienza la fomacion academica*/
+
+.Formacion.formacion_h3{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2F80ED;
+    margin-bottom: 1.2rem;
+    position: relative;
+}
+
+.sub-tituloED{
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1.1rem; 
+}
+
+.parrafo-contED{
+    line-height: 1.6rem;
+    color: #18396b;
+    font-size: 1.1rem;
+}
+
+.sub-tituloED1{
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1.1rem; 
+}
+.parrafo-contED{
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1.1rem; 
+}
+.titulo-cont{
+    padding-top: 2rem;
+}
+
+/*comienza seccion de contactos*/
+.Contacto{
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:black;
+    padding-top: 1rem;
+}
+
+.contacto-info{
+    padding: .4rem 0;
+    display: flex;
+    text-align: center;
+    align-items: stretch ;
+    color: #2d202d;
+}
+
+.contacto-info ul li{
+    font-size: 1.1rem; 
+    display: flex;
+    text-align: left;
+    align-items: stretch;
+    color: #774e38;
+}
